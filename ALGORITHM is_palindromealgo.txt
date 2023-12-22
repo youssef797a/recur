@@ -1,0 +1,14 @@
+ALGORITHM is_palindrome
+length = length of word
+    if length <= 1 then
+        return true
+            start = 0
+    end = length - 1
+    
+    while start < end do:
+        if word[start] = word[end] then
+            start = start + 1
+            end = end - 1
+        else
+            return false 
+    return true 
